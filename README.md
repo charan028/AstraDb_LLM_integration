@@ -44,15 +44,12 @@ To use this notebook, you need:
 
 ## Installation
 
-1. Clone this repository:
+1. export api key in env file:
    ```bash
-   git clone <repo-url>
-   cd <repo-directory>
-pip install -r requirements.txt
-export ASTRA_DB_APPLICATION_TOKEN=<your_astra_db_token>
-export ASTRA_DB_API_ENDPOINT=<your_astra_db_endpoint>
-export OPENAI_API_KEY=<your_openai_api_key>
+   export ASTRA_DB_APPLICATION_TOKEN=<your_astra_db_token>
+   export ASTRA_DB_API_ENDPOINT=<your_astra_db_endpoint>
+   export OPENAI_API_KEY=<your_openai_api_key>
 
-chain.invoke("How does Russell elaborate on Peirce's idea of the security blanket?")
+   chain.invoke("How does Russell elaborate on Peirce's idea of the security blanket?")
 
 This README file provides an overview of the notebook, prerequisites, installation steps, and usage instructions. You can customize it further based on your specific needs. &#8203;:contentReference[oaicite:0]{index=0}&#8203;
